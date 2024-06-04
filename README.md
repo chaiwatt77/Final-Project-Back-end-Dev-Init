@@ -32,10 +32,7 @@ Follow these instructions to set up and run the project on your local machine.
 
     const connectDB = async () => {
       try {
-        await mongoose.connect('mongodb://localhost:27017/your-database-name', {
-          useNewUrlParser: true,
-          useUnifiedTopology: true,
-        });
+        await mongoose.connect('mongodb://localhost:27017/your-database-name');
         console.log('MongoDB connected');
       } catch (error) {
         console.error('MongoDB connection error:', error);
