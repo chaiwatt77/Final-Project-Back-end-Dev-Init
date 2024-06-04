@@ -1,0 +1,49 @@
+
+{
+  //http://localhost:3000/logs post
+  "user_id":"66568f1df1f9b2457ae8b3a0",
+  "content":"test content",
+  "date":"2024-05-29"
+}
+
+{
+  //http://localhost:3000/logs/6657d5b49cd5179b3365c5d8 put
+  "content":"test content77",
+  "date":"2024-05-07"
+}
+
+{
+  //http://localhost:3000/todos
+  "user_id":"66568f1df1f9b2457ae8b3a0",
+  "title":"test title",
+  "description":"as4das54f65a4654",
+  "due_date":"2024-05-29",
+  "priority":"High",
+  "status":"Pending"
+}
+
+{
+  //http://localhost:3000/todos put
+  "title":"test title7",
+  "description":"as4das54f65a46547",
+  "due_date":"2024-05-19",
+  "priority":"High",
+  "status":"Pending"
+}
+
+{
+  //http://localhost:3000/events post
+  "user_id":"66568f1df1f9b2457ae8b3a0",
+  "title":"as4das54f65a46547",
+  "description":"test des",
+  "start_date":"2024-05-19",
+  "end_date":"2024-05-19"
+}
+
+{
+  //http://localhost:3000/events/:id put
+  "title":"as4das54f65a46547",
+  "description":"test des",
+  "start_date":"2024-05-19",
+  "end_date":"2024-05-19"
+}

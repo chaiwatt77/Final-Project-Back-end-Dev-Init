@@ -1,0 +1,12 @@
+การแปลง type ต้องมี new ด้านหน้าด้วย
+new mongoose.Types.ObjectId(userAuthId)
+
+you have included @types/mongodb-memory-server, which is not necessary since the type definitions are already included in the mongodb-memory-server package itself.
+คือไม่ต้อง npm i @types/mongodb-memory-server ใช้แค่ npm i mongodb-memory-server
+
+
+The ! symbol is called the non-null assertion operator in TypeScript. It tells TypeScript that you are sure that the value will not be null or undefined, allowing you to access properties on the value without TypeScript raising an error about potential null or undefined values.
+
+For example, in the expression savedLog!.user_id, the ! is used to assert that savedLog will not be null or undefined. This allows you to safely access the user_id property of savedLog without TypeScript raising an error about potential null or undefined values.
+
+It's important to use the non-null assertion operator (!) only when you are certain that the value will not be null or undefined, as using it incorrectly can lead to runtime errors if the value does happen to be null or undefined.
